@@ -1,0 +1,295 @@
+body {
+    background-image: url('../images/background.png');
+    background-repeat: repeat;
+    margin-bottom: 200px;
+    min-height: 100%;
+}
+
+div.lighten {
+    /* display: inline-block; */
+    background: black;
+    padding: 0;
+}
+
+.fab {
+    font-size: 2rem;
+    color: white;
+}
+
+div.lighten img {
+    /* display: block; */
+    opacity: 0.7;
+
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+div.lighten:hover img {
+    opacity: 1;
+
+}
+
+.card {
+    border-radius: 0rem;
+    border-right-color: #ddd;
+    border-left-color: #ddd;
+    border-top-color: #ddd;
+    border-bottom-color: #ddd;
+}
+
+.list-group-item:first-child {
+    border-top: none;
+}
+
+#copyright-text {
+    font-size: 12px;
+}
+
+#about-me-card {
+    padding: 30px;
+}
+
+#header-container {
+    border-bottom: 2px solid;
+    border-bottom-color: #ccc;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#header-row {
+    background-color: white;
+    margin-right: 0px;
+}
+
+#header-name {
+    min-height: 90px;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+    /* margin-left */
+}
+
+#header-nav-col {
+    min-height: 64px;
+    background-color: white;
+    min-width: 256px;
+}
+
+#header-row {
+    background-color: white;
+}
+
+h1 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    /* line-height: 90px; */
+    margin: 0 0 0 0;
+    font-size: 30px;
+}
+
+hr {
+    border-top: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.btn-primary {
+    color: white;
+    background-color: hsl(176, 32%, 51%);
+    border-bottom-color: #59aaa5;
+    border-radius: 0%;
+    border-left-color: #59aaa5;
+    border-right-color: #59aaa5;
+    border-bottom-color: #59aaa5;
+    border-top-color: #59aaa5;
+    height: 40px;
+    width: 115px
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: hsl(176, 32%, 41%);
+    border-color: hsl(176, 32%, 41%);
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem hsla(176, 32%, 51%, 0.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem hsla(176, 32%, 51%, 0.5);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: hsl(176, 32%, 44%);
+    border-color: hsl(176, 32%, 44%);
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    color: #777;
+    line-height: 33px;
+    font-size: 18px;
+
+}
+
+a {
+    color: #999;
+    font-size: 19px;
+}
+
+a:hover {
+    color: #555;
+}
+
+label {
+    color: #777;
+    font-size: 19px;
+}
+
+input::placeholder {
+    color: #ccc !important;
+}
+
+input::-webkit-input-placeholder {
+    color: #ccc !important;
+}
+
+input::-moz-placeholder {
+    color: #ccc !important;
+}
+
+input:-ms-input-placeholder {
+    color: #ccc !important;
+}
+
+input:-moz-placeholder {
+    color: #ccc !important;
+}
+
+.portfolio-content-box {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.portfolio-image {
+    width: 100%;
+}
+
+#portfolio-container {
+    margin-top: 38px;
+}
+
+.portfolio-banner {
+    position: absolute;
+    width: calc(100% - 30px);
+    height: 60px;
+    background-color: #59aaa5;
+    bottom: 38px;
+}
+
+.portfolio-link {
+    color: white;
+    font-family: Georgia,
+        Times,
+        'Times New Roman',
+        serif;
+    line-height: 60px;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.portfolio-link:hover {
+    text-decoration: none;
+    /* color:  */
+}
+
+#about-me-image {
+    float: left;
+    width: 40%;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-top: 9px;
+}
+
+h1#your-name {
+    line-height: 90px;
+    width: 250px;
+    background-color: #59aaa5;
+}
+
+h1.card-title {
+    color: #59aaa5;
+}
+
+.footer {
+    /* box-sizing: border-box; */
+    border-top: 6px solid #59aaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    line-height: 94px;
+    /* Vertically center the text there */
+    background-color: #666;
+    color: #ddd;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ddd;
+    border-radius: 0rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control:focus {
+    /* color: #454545; */
+    background-color: #fff;
+    border-color: #ccc;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem hsla(176, 32%, 30%, 0.20);
+}
+
+/* Medium to small transition */
+@media screen and (max-width: 767px) {
+    #header-name {
+        background-color: #59aaa5;
+    }
+
+    #about-me-image {
+        float: none;
+        width: 100%;
+        height: auto;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        padding-top: 13px;
+    }
+
+    .footer {
+        height: 50px;
+        border-top: 3px solid hsl(176, 32%, 51%);
+        line-height: 47px;
+    }
+}
