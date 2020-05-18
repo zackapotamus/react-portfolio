@@ -18,9 +18,9 @@ const TopNav = () => {
                     <div className="row justify-content-center align-items-center">
                         <div className="col">
                             <nav className="nav justify-content-center align-items-center">
-                                <Link to="/about">About</Link>
-                                <Link to="/portfolio">Portfolio</Link>
-                                <Link to="/contact">Contact</Link>
+                                <Link className="nav-link" to="/about">About</Link>
+                                <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                                <Link className="nav-link" to="/contact">Contact</Link>
                             </nav>
                         </div>
                     </div>

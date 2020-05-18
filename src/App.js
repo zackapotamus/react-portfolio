@@ -1,15 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 import "../src/css/style.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./containers/About";
+import TopNav from "./components/TopNav";
+import Footer from "./components/Footer";
+import Portfolio from "./containers/Portfolio";
 
 function App() {
   return (
-    <Router>
-      <Route exact path="/about" component={About} />
-    </Router>
+    <>
+      <Router>
+        <TopNav />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Footer/>
+      </Router>
+    </>
   );
 }
 

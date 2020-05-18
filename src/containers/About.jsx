@@ -1,4 +1,5 @@
 import React from 'react';
+import FacePic from "../img/zackface.jpg"
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
                             <div className="card-body" id="about-me-card">
                                 <h1 className="card-title">About Me</h1>
                                 <hr />
-                                <img id="about-me-image" src="images/zackface.jpg" alt="face pic" />
+                                <img id="about-me-image" src={FacePic} alt="face pic" />
                                 <p className="card-text">Hi, and welcome to my About Me page. While I am a software
                                     developer by trade, it has always been interested in technology. I made my first
                                     webpage in only HTML when I was 12 (Does anyone remember Geocities?). Since
