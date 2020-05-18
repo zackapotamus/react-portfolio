@@ -15,7 +15,7 @@ const Project = (props) => {
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <a href={props.githubLink} target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-github-square"></i>
+            {props.heroku ? <i className="fas fa-external-link-square-alt"></i> : <i className="fab fa-github-square"></i>}
           </a>
         </div>
       </div>

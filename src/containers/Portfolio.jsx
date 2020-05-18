@@ -7,6 +7,7 @@ import DayPlannerImg from "../img/day_planner.png";
 import BookLineSinkerImg from "../img/booklineandsinker.png";
 import GoogleBooksSearchImg from "../img/googlebookssearch.png";
 import EmployeeDirectoryImg from "../img/employeedirectory.png";
+import VideoStarImg from "../img/videostar.png";
 
 const Portfolio = () => {
   return (
@@ -23,6 +24,7 @@ const Portfolio = () => {
         image={BookLineSinkerImg}
         altText={"book line and sinker"}
         hostedLink={"https://salty-sea-30078.herokuapp.com/"}
+        heroku={true}
         githubLink={"https://github.com/fmiusov/Book-Line-And-Sinker"}
       />
       <Project
@@ -45,7 +47,6 @@ const Portfolio = () => {
         altText={"day planner"}
         githubLink={"https://github.com/zackapotamus/Day-Planner"}
         hostedLink={"https://zackapotamus.github.io/Day-Planner/"}
-        herouku={true}
       />
       <Project
         projectName="Coding Quiz"
@@ -53,6 +54,14 @@ const Portfolio = () => {
         altText={"coding quiz"}
         githubLink={"https://github.com/zackapotamus/Code-Quiz/"}
         hostedLink={"https://zackapotamus.github.io/Code-Quiz/"}
+      />
+      <Project
+        projectName="Video Star"
+        image={VideoStarImg}
+        altText={"coding quiz"}
+        githubLink={"https://github.com/zackapotamus/video-star"}
+        hostedLink={"https://video-star.herokuapp.com"}
+        heroku={true}
       />
     </ProjectContainer>
   );

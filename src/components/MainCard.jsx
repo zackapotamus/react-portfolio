@@ -9,7 +9,7 @@ const MainCard = (props) => {
           <div className="row">
             <div className="col-12 col-lg-8 card-container">
               <div className="card shadow">
-                <div className="card-body">
+                <div className="card-body" id={props.id || "my-card"}>
                   {props.children}
                 </div>
               </div>

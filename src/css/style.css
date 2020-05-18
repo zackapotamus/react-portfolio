@@ -11,7 +11,7 @@ div.lighten {
     padding: 0;
 }
 
-.fab {
+.fab, .fas {
     font-size: 2rem;
     color: white;
 }
