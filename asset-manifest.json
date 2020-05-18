@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8dd52515.chunk.css",
-    "main.js": "/portfolio/static/js/main.7c568145.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7c568145.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.4f302caf.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.4f302caf.js.map",
-    "static/js/2.69ec48e0.chunk.js": "/portfolio/static/js/2.69ec48e0.chunk.js",
-    "static/js/2.69ec48e0.chunk.js.map": "/portfolio/static/js/2.69ec48e0.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.35f2243fc08109f7a97464e3d7e9553f.js": "/portfolio/precache-manifest.35f2243fc08109f7a97464e3d7e9553f.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.8dd52515.chunk.css.map": "/portfolio/static/css/main.8dd52515.chunk.css.map",
-    "static/js/2.69ec48e0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.69ec48e0.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/portfolio/static/media/background.923b1d6a.png",
-    "static/media/booklineandsinker.png": "/portfolio/static/media/booklineandsinker.4c3d0c05.png",
-    "static/media/brew2you.png": "/portfolio/static/media/brew2you.b93aa332.png",
-    "static/media/coding_quiz.png": "/portfolio/static/media/coding_quiz.f939d9f2.png",
-    "static/media/day_planner.png": "/portfolio/static/media/day_planner.4324dd5b.png",
-    "static/media/employeedirectory.png": "/portfolio/static/media/employeedirectory.16809e1f.png",
-    "static/media/googlebookssearch.png": "/portfolio/static/media/googlebookssearch.764a04fa.png",
-    "static/media/zackface.jpg": "/portfolio/static/media/zackface.c395ab6e.jpg"
+    "main.css": "/react-portfolio/static/css/main.32b780d3.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.9a529c6a.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.9a529c6a.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.d08fb9a1.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.d08fb9a1.js.map",
+    "static/js/2.69ec48e0.chunk.js": "/react-portfolio/static/js/2.69ec48e0.chunk.js",
+    "static/js/2.69ec48e0.chunk.js.map": "/react-portfolio/static/js/2.69ec48e0.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.337db73095d63cb43c480b7c3faede5f.js": "/react-portfolio/precache-manifest.337db73095d63cb43c480b7c3faede5f.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.32b780d3.chunk.css.map": "/react-portfolio/static/css/main.32b780d3.chunk.css.map",
+    "static/js/2.69ec48e0.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.69ec48e0.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/react-portfolio/static/media/background.923b1d6a.png",
+    "static/media/booklineandsinker.png": "/react-portfolio/static/media/booklineandsinker.4c3d0c05.png",
+    "static/media/brew2you.png": "/react-portfolio/static/media/brew2you.b93aa332.png",
+    "static/media/coding_quiz.png": "/react-portfolio/static/media/coding_quiz.f939d9f2.png",
+    "static/media/day_planner.png": "/react-portfolio/static/media/day_planner.4324dd5b.png",
+    "static/media/employeedirectory.png": "/react-portfolio/static/media/employeedirectory.16809e1f.png",
+    "static/media/googlebookssearch.png": "/react-portfolio/static/media/googlebookssearch.764a04fa.png",
+    "static/media/zackface.jpg": "/react-portfolio/static/media/zackface.c395ab6e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4f302caf.js",
+    "static/js/runtime-main.d08fb9a1.js",
     "static/js/2.69ec48e0.chunk.js",
-    "static/css/main.8dd52515.chunk.css",
-    "static/js/main.7c568145.chunk.js"
+    "static/css/main.32b780d3.chunk.css",
+    "static/js/main.9a529c6a.chunk.js"
   ]
 }
