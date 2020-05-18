@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c89c7edf.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c0161998.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c0161998.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.42ba0bff.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.f0664125.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f0664125.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.d08fb9a1.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.d08fb9a1.js.map",
-    "static/js/2.b2c47a5f.chunk.js": "/react-portfolio/static/js/2.b2c47a5f.chunk.js",
-    "static/js/2.b2c47a5f.chunk.js.map": "/react-portfolio/static/js/2.b2c47a5f.chunk.js.map",
+    "static/js/2.24baf9f5.chunk.js": "/react-portfolio/static/js/2.24baf9f5.chunk.js",
+    "static/js/2.24baf9f5.chunk.js.map": "/react-portfolio/static/js/2.24baf9f5.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.b0345e8ddba4dbeb96c7bccc95d3992b.js": "/react-portfolio/precache-manifest.b0345e8ddba4dbeb96c7bccc95d3992b.js",
+    "precache-manifest.5eba723b918a6babe15b2336e6dc71e1.js": "/react-portfolio/precache-manifest.5eba723b918a6babe15b2336e6dc71e1.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.c89c7edf.chunk.css.map": "/react-portfolio/static/css/main.c89c7edf.chunk.css.map",
-    "static/js/2.b2c47a5f.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b2c47a5f.chunk.js.LICENSE.txt",
+    "static/css/main.42ba0bff.chunk.css.map": "/react-portfolio/static/css/main.42ba0bff.chunk.css.map",
+    "static/js/2.24baf9f5.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.24baf9f5.chunk.js.LICENSE.txt",
     "static/media/style.css": "/react-portfolio/static/media/background.923b1d6a.png",
     "static/media/booklineandsinker.png": "/react-portfolio/static/media/booklineandsinker.4c3d0c05.png",
     "static/media/brew2you.png": "/react-portfolio/static/media/brew2you.b93aa332.png",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d08fb9a1.js",
-    "static/js/2.b2c47a5f.chunk.js",
-    "static/css/main.c89c7edf.chunk.css",
-    "static/js/main.c0161998.chunk.js"
+    "static/js/2.24baf9f5.chunk.js",
+    "static/css/main.42ba0bff.chunk.css",
+    "static/js/main.f0664125.chunk.js"
   ]
 }
